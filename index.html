@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>slideshow</title>
+  </head>
+<body>
+
+   <div class="text1">
+    Wonders of the World
+   </div>
+
+   <div class="text2">
+    Our world is filled with the most unique structures that are both man-made and natural. <br>
+    Some of the man-made creations include churches, tombs, temples, monuments, mosques, buildings and even cities. <br>
+    At present, the Seven Wonders of the World are the 
+    Taj Mahal, the Colosseum, the Chichen Itza, Machu Picchu, Christ the Redeemer, Petra, and the Great Wall of China. 
+   </div>
+
+
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <div class="numbertext">1 </div>
+          <img src="Taj-Mahal.jpg" style="width:100%"  height="450px">
+          <div class="text">Taj Mahal, India</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">2</div>
+          <img src="Petra-at-night.jpg" style="width:100%"  height="450px">
+          <div class="text">Petra, Jordan</div>
+        </div>
+        
+        <div class="mySlides fade">
+            <div class="numbertext">3</div>
+            <img src="peru.jpg" style="width:100%" height="450px">
+            <div class="text">Machu Picchu, Peru</div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext"> 4</div>
+            <img src="rome.jpg" style="width:100%" height="450px" >
+            <div class="text">The Colosseum, Rome</div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext"> 5 </div>
+            <img src="Christ-the-Redeemer.jpg" style="width:100%" height="450px">
+            <div class="text">Christ the Redeemer, Brazil</div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext"> 6 </div>
+            <img src="Great-Wall-of-China-view.jpg" style="width:100%" height="450px">
+            <div class="text">The Great Wall of China</div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext"> 7 </div>
+            <img src="Temple-of-warriors-at-Chichen-Itza.jpg" style="width:100%" height="450px">
+            <div class="text">Chichén Itzá, Mexico</div>
+          </div>
+        
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        
+        </div>
+        <br>
+        
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span> 
+          <span class="dot" onclick="currentSlide(2)"></span> 
+          <span class="dot" onclick="currentSlide(3)"></span> 
+          <span class="dot" onclick="currentSlide(4)"></span> 
+          <span class="dot" onclick="currentSlide(5)"></span> 
+          <span class="dot" onclick="currentSlide(6)"></span> 
+          <span class="dot" onclick="currentSlide(7)"></span> 
+        </div>
+        
+
+    <script src="main.js" ></script>
+</body>
+</html>
